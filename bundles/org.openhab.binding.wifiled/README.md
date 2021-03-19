@@ -128,7 +128,7 @@ sitemap wifiled label="LED Sitemap"
         Slider item=MyWiFiLight_white      visibility=[MyWiFiLight_power==ON]
         Slider item=MyWiFiLight_speed      visibility=[MyWiFiLight_power==ON]
 
-        Selection item=LED_1_program  visibility=[MyWiFiLight_power==ON]
+        Text item=LED_1_program  visibility=[MyWiFiLight_power==ON]
   
         Switch item=LED_1_preset_0   visibility=[MyWiFiLight_power==ON]
         Switch item=LED_1_preset_1   visibility=[MyWiFiLight_power==ON]
